@@ -58,8 +58,9 @@ export default function Home() {
         cacheProvider: false,
         disableInjectedProvider: false,
       });
+      connectWallet();
     }
-  }, []);
+  }, [walletConnected]);
 
 
   return (
