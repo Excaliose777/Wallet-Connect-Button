@@ -1,9 +1,18 @@
+<<<<<<< HEAD
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import React, { useEffect, useRef, useState } from "react";
 import WalletConnectProvider from "@walletconnect/web3-provider";
 import Web3Modal from "web3Modal";
 import { providers } from 'ethers';
+=======
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
+import React, { useEffect, useRef, useState } from "react";
+import WalletConnectProvider from "@walletconnect/web3-provider";
+import Web3Modal from "web3Modal";
+import { providers } from "ethers";
+>>>>>>> 8ce7a13b9c232a2da85ba2a5a57ba2a029919982
 
 export default function Home() {
 
