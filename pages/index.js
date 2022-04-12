@@ -2,7 +2,7 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import React, { useEffect, useRef, useState } from "react";
 import WalletConnectProvider from "@walletconnect/web3-provider";
-import Web3Modal from "web3Modal";
+import web3Modal from "web3Modal";
 import { providers } from "ethers";
 
 export default function Home() {
